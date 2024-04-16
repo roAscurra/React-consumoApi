@@ -1,4 +1,4 @@
-export default class Instrumeno{
+export default class Instrumento{
     id:number = 0;
     instrumento:string = "";
     marca:string = "";
