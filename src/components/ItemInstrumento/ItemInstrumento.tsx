@@ -11,7 +11,7 @@ function ItemInstrumento(args: InstrumentoParam) {
     const classEnvio = args.costoEnvio === "G" ? "text-green" : "text-orange";
 
     return (
-        <div className="card mb-3">
+        <div className="card mb-3 m-3">
             <div className="row">
                 <div className="col-md-2">
                     <img src={`../public/img/${args.imagen}`} style={{width: '100%'}} className="img-fluid" alt={`imagen`}></img>
