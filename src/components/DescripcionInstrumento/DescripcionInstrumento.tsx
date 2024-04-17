@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams} from "react-router-dom";
 import Instrumeno from "../../entities/Instrumento";
 import { getInstrumentoPorIdFecth } from "../../services/FuncionesApi";
 
@@ -31,16 +31,6 @@ function DescripcionInstrumento() {
 
   return (
     <div>
-      <div className="col-md-12 text-start btn btn-white">
-        <Link to="/" style={{ color: 'grey', textDecoration: 'none' }}>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chevron-double-left" viewBox="0 0 16 16">
-            <path fillRule="evenodd" d="M8.354 1.646a.5.5 0 0 1 0 .708L2.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
-            <path fillRule="evenodd" d="M12.354 1.646a.5.5 0 0 1 0 .708L6.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
-          </svg>
-          <span>Volver</span>
-        </Link>
-      </div>
-
       <div className="card col-md-9 mb-3 m-3">
         <div className="row">
           <div className="col-md-5">

@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { NavBar } from '../NavBar/NavBar';
 
 const images = [
   'imagen1.jpg',
   'imagen2.jpg',
-  'imagen3.jpeg',
+  'imagen3.jpg',
+  'imagen4.jpg'
 ];
 
 export const Home = () => {
@@ -20,7 +20,6 @@ export const Home = () => {
 
   return (
     <div>
-      <NavBar />
       <h1 className='text-center m-3'>Musical Hendrix</h1>
       <div id="carouselExample" className="carousel slide">
         <div className="carousel-inner">
@@ -40,12 +39,13 @@ export const Home = () => {
         </button>
       </div>
       <div className='col-md-12'>
-        <p className='text-center h5 m-3'>
+        <p className='text-center h5 m-3 mb-5'>
           Musical Hendrix es una tienda de instrumentos musicales con ya más de 15 años de
           experiencia. Tenemos el conocimiento y la capacidad como para informarte acerca de las
           mejores elecciones para tu compra musical.
         </p>
       </div>
+      <hr />
     </div>
   );
 };
