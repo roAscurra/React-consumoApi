@@ -22,6 +22,9 @@ function ItemInstrumento(args: InstrumentoParam) {
                         <p className="card-text h1">$ {args.precio}</p>
                         <p className={`card-text ${classEnvio}`}>{costoEnvioText}</p>
                         <p className='card-text'>{args.cantidadVendida} vendidos</p>
+                        <a href={`descripcion-producto/${args.id}`}>
+                            <button className="btn btn-primary">Ver detalles</button>
+                        </a>
                     </div>
                 </div>
             </div>
