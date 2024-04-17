@@ -1,0 +1,24 @@
+.text-orange{
+    color: #ff8a50;
+}
+.text-green{
+    color: #00a650;
+}
+.card-title{
+    font-size: x-large;
+}
+.precio{
+    font-weight: normal;
+}
+.btn-green{
+    color: #00a650;
+    border-color: #00a650;
+}
+.btn-green:hover {
+    background-color: #00a650; 
+    color: white; 
+}
+.card-body p {
+    margin: 0;
+}
+  
